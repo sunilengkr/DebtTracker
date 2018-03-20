@@ -15,14 +15,14 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        configureUI()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private func configureUI() {
+        usernameTextField.attributedPlaceholder = NSAttributedString.init(string: "username", attributes: [NSAttributedStringKey.foregroundColor: UIColor.white.withAlphaComponent(0.5),])
+        passwordTextField.attributedPlaceholder = NSAttributedString.init(string: "password", attributes: [NSAttributedStringKey.foregroundColor: UIColor.white.withAlphaComponent(0.5)])
+        passwordTextField.isSecureTextEntry = true
     }
-    
     @IBAction func signInButtonTapped(_ sender: UIButton) {
     }
     
@@ -30,6 +30,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func createNewAccountTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "registerScreenSegue", sender: self)
     }
 }
 

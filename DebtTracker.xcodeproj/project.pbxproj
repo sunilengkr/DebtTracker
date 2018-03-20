@@ -15,6 +15,7 @@
 		1067147D2057647500BFC6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1067147B2057647500BFC6DE /* LaunchScreen.storyboard */; };
 		106714882057647500BFC6DE /* DebtTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714872057647500BFC6DE /* DebtTrackerTests.swift */; };
 		106714932057647500BFC6DE /* DebtTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714922057647500BFC6DE /* DebtTrackerUITests.swift */; };
+		10CB78EF2061746100F9D2A8 /* DTRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB78EE2061746100F9D2A8 /* DTRegisterViewController.swift */; };
 		1B47BFC39CEF96D2171BAE68 /* Pods_DebtTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A420CCE2E7F727806ECCF64A /* Pods_DebtTrackerUITests.framework */; };
 		53564B0F9A18B900DF6E0D8A /* Pods_DebtTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E89D6EDF2C74CB05F4EA90 /* Pods_DebtTracker.framework */; };
 		7F8B3F02C75454A3A22D2B1F /* Pods_DebtTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3C8EC06B3B13185E46215B /* Pods_DebtTrackerTests.framework */; };
@@ -52,6 +53,7 @@
 		1067148E2057647500BFC6DE /* DebtTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebtTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		106714922057647500BFC6DE /* DebtTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackerUITests.swift; sourceTree = "<group>"; };
 		106714942057647600BFC6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CB78EE2061746100F9D2A8 /* DTRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRegisterViewController.swift; sourceTree = "<group>"; };
 		1E5ECF394D8E7BA6AA6BA21D /* Pods-DebtTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerTests/Pods-DebtTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F4E3A28362563B5652B999B /* Pods-DebtTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerTests/Pods-DebtTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		4055304C8F208EAC046C779D /* Pods-DebtTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerUITests/Pods-DebtTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				1067147B2057647500BFC6DE /* LaunchScreen.storyboard */,
 				1067147E2057647500BFC6DE /* Info.plist */,
 				106714762057647500BFC6DE /* DebtTracker.xcdatamodeld */,
+				10CB78EE2061746100F9D2A8 /* DTRegisterViewController.swift */,
 			);
 			path = DebtTracker;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				106714722057647500BFC6DE /* SignInViewController.swift in Sources */,
+				10CB78EF2061746100F9D2A8 /* DTRegisterViewController.swift in Sources */,
 				106714782057647500BFC6DE /* DebtTracker.xcdatamodeld in Sources */,
 				106714702057647500BFC6DE /* AppDelegate.swift in Sources */,
 			);
