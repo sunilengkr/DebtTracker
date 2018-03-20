@@ -1,0 +1,6 @@
+framework module Pods_DebtTrackerTests {
+  umbrella header "Pods-DebtTrackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

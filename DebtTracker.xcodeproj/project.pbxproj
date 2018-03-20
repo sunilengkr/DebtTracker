@@ -15,6 +15,9 @@
 		1067147D2057647500BFC6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1067147B2057647500BFC6DE /* LaunchScreen.storyboard */; };
 		106714882057647500BFC6DE /* DebtTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714872057647500BFC6DE /* DebtTrackerTests.swift */; };
 		106714932057647500BFC6DE /* DebtTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714922057647500BFC6DE /* DebtTrackerUITests.swift */; };
+		1B47BFC39CEF96D2171BAE68 /* Pods_DebtTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A420CCE2E7F727806ECCF64A /* Pods_DebtTrackerUITests.framework */; };
+		53564B0F9A18B900DF6E0D8A /* Pods_DebtTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E89D6EDF2C74CB05F4EA90 /* Pods_DebtTracker.framework */; };
+		7F8B3F02C75454A3A22D2B1F /* Pods_DebtTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3C8EC06B3B13185E46215B /* Pods_DebtTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		1067148E2057647500BFC6DE /* DebtTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebtTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		106714922057647500BFC6DE /* DebtTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackerUITests.swift; sourceTree = "<group>"; };
 		106714942057647600BFC6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5ECF394D8E7BA6AA6BA21D /* Pods-DebtTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerTests/Pods-DebtTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4E3A28362563B5652B999B /* Pods-DebtTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerTests/Pods-DebtTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4055304C8F208EAC046C779D /* Pods-DebtTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerUITests/Pods-DebtTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49E89D6EDF2C74CB05F4EA90 /* Pods_DebtTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebtTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE9FDC51679E51099611A2A /* Pods-DebtTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTrackerUITests/Pods-DebtTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E1B8AF3C807A98F1602E527 /* Pods-DebtTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTracker/Pods-DebtTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3C8EC06B3B13185E46215B /* Pods_DebtTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebtTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A420CCE2E7F727806ECCF64A /* Pods_DebtTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebtTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F795F7C79ED83ACF225CB3AD /* Pods-DebtTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTracker/Pods-DebtTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53564B0F9A18B900DF6E0D8A /* Pods_DebtTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8B3F02C75454A3A22D2B1F /* Pods_DebtTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B47BFC39CEF96D2171BAE68 /* Pods_DebtTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				106714862057647500BFC6DE /* DebtTrackerTests */,
 				106714912057647500BFC6DE /* DebtTrackerUITests */,
 				1067146D2057647500BFC6DE /* Products */,
+				70F2EFF259A0D5744D817A47 /* Pods */,
+				98435A3AEB76EA9BBA97731B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = DebtTrackerUITests;
 			sourceTree = "<group>";
 		};
+		70F2EFF259A0D5744D817A47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B8AF3C807A98F1602E527 /* Pods-DebtTracker.debug.xcconfig */,
+				F795F7C79ED83ACF225CB3AD /* Pods-DebtTracker.release.xcconfig */,
+				1E5ECF394D8E7BA6AA6BA21D /* Pods-DebtTrackerTests.debug.xcconfig */,
+				2F4E3A28362563B5652B999B /* Pods-DebtTrackerTests.release.xcconfig */,
+				5BE9FDC51679E51099611A2A /* Pods-DebtTrackerUITests.debug.xcconfig */,
+				4055304C8F208EAC046C779D /* Pods-DebtTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98435A3AEB76EA9BBA97731B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E89D6EDF2C74CB05F4EA90 /* Pods_DebtTracker.framework */,
+				8F3C8EC06B3B13185E46215B /* Pods_DebtTrackerTests.framework */,
+				A420CCE2E7F727806ECCF64A /* Pods_DebtTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 106714972057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTracker" */;
 			buildPhases = (
+				07A816AC7FB13325DB11F8EF /* [CP] Check Pods Manifest.lock */,
 				106714682057647500BFC6DE /* Sources */,
 				106714692057647500BFC6DE /* Frameworks */,
 				1067146A2057647500BFC6DE /* Resources */,
+				24FE0D01F81EB31C64D9F3BA /* [CP] Embed Pods Frameworks */,
+				41A0611A01D1C10672B484BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1067149A2057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTrackerTests" */;
 			buildPhases = (
+				D529D27948E9374F27D770B1 /* [CP] Check Pods Manifest.lock */,
 				1067147F2057647500BFC6DE /* Sources */,
 				106714802057647500BFC6DE /* Frameworks */,
 				106714812057647500BFC6DE /* Resources */,
+				2BBACDDE64452D44B6C4803A /* [CP] Embed Pods Frameworks */,
+				B166B7F79221DB91A2A188A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1067149D2057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTrackerUITests" */;
 			buildPhases = (
+				1F9A2B2E85E5E442974C846B /* [CP] Check Pods Manifest.lock */,
 				1067148A2057647500BFC6DE /* Sources */,
 				1067148B2057647500BFC6DE /* Frameworks */,
 				1067148C2057647500BFC6DE /* Resources */,
+				FAC0E1049D2EF511E27E92EB /* [CP] Embed Pods Frameworks */,
+				F2B628BE4B888D3FCEF79AD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A816AC7FB13325DB11F8EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DebtTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F9A2B2E85E5E442974C846B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DebtTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24FE0D01F81EB31C64D9F3BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DebtTracker/Pods-DebtTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebtTracker/Pods-DebtTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBACDDE64452D44B6C4803A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebtTrackerTests/Pods-DebtTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41A0611A01D1C10672B484BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebtTracker/Pods-DebtTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B166B7F79221DB91A2A188A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebtTrackerTests/Pods-DebtTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D529D27948E9374F27D770B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DebtTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B628BE4B888D3FCEF79AD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebtTrackerUITests/Pods-DebtTrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC0E1049D2EF511E27E92EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebtTrackerUITests/Pods-DebtTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		106714682057647500BFC6DE /* Sources */ = {
@@ -428,6 +627,7 @@
 		};
 		106714982057647600BFC6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1B8AF3C807A98F1602E527 /* Pods-DebtTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +643,7 @@
 		};
 		106714992057647600BFC6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F795F7C79ED83ACF225CB3AD /* Pods-DebtTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +659,7 @@
 		};
 		1067149B2057647600BFC6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5ECF394D8E7BA6AA6BA21D /* Pods-DebtTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +677,7 @@
 		};
 		1067149C2057647600BFC6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4E3A28362563B5652B999B /* Pods-DebtTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +695,7 @@
 		};
 		1067149E2057647600BFC6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE9FDC51679E51099611A2A /* Pods-DebtTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +712,7 @@
 		};
 		1067149F2057647600BFC6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4055304C8F208EAC046C779D /* Pods-DebtTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
