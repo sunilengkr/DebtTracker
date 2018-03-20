@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106714702057647500BFC6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1067146F2057647500BFC6DE /* AppDelegate.swift */; };
+		106714722057647500BFC6DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714712057647500BFC6DE /* SignInViewController.swift */; };
+		106714752057647500BFC6DE /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106714732057647500BFC6DE /* Register.storyboard */; };
+		106714782057647500BFC6DE /* DebtTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 106714762057647500BFC6DE /* DebtTracker.xcdatamodeld */; };
+		1067147A2057647500BFC6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106714792057647500BFC6DE /* Assets.xcassets */; };
+		1067147D2057647500BFC6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1067147B2057647500BFC6DE /* LaunchScreen.storyboard */; };
+		106714882057647500BFC6DE /* DebtTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714872057647500BFC6DE /* DebtTrackerTests.swift */; };
+		106714932057647500BFC6DE /* DebtTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106714922057647500BFC6DE /* DebtTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		106714842057647500BFC6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106714642057647500BFC6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1067146B2057647500BFC6DE;
+			remoteInfo = DebtTracker;
+		};
+		1067148F2057647500BFC6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106714642057647500BFC6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1067146B2057647500BFC6DE;
+			remoteInfo = DebtTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1067146C2057647500BFC6DE /* DebtTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1067146F2057647500BFC6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		106714712057647500BFC6DE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		106714742057647500BFC6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Register.storyboard; sourceTree = "<group>"; };
+		106714772057647500BFC6DE /* DebtTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DebtTracker.xcdatamodel; sourceTree = "<group>"; };
+		106714792057647500BFC6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1067147C2057647500BFC6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1067147E2057647500BFC6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106714832057647500BFC6DE /* DebtTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebtTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106714872057647500BFC6DE /* DebtTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackerTests.swift; sourceTree = "<group>"; };
+		106714892057647500BFC6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1067148E2057647500BFC6DE /* DebtTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebtTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106714922057647500BFC6DE /* DebtTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackerUITests.swift; sourceTree = "<group>"; };
+		106714942057647600BFC6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106714692057647500BFC6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106714802057647500BFC6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1067148B2057647500BFC6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106714632057647500BFC6DE = {
+			isa = PBXGroup;
+			children = (
+				1067146E2057647500BFC6DE /* DebtTracker */,
+				106714862057647500BFC6DE /* DebtTrackerTests */,
+				106714912057647500BFC6DE /* DebtTrackerUITests */,
+				1067146D2057647500BFC6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1067146D2057647500BFC6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1067146C2057647500BFC6DE /* DebtTracker.app */,
+				106714832057647500BFC6DE /* DebtTrackerTests.xctest */,
+				1067148E2057647500BFC6DE /* DebtTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1067146E2057647500BFC6DE /* DebtTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1067146F2057647500BFC6DE /* AppDelegate.swift */,
+				106714712057647500BFC6DE /* SignInViewController.swift */,
+				106714732057647500BFC6DE /* Register.storyboard */,
+				106714792057647500BFC6DE /* Assets.xcassets */,
+				1067147B2057647500BFC6DE /* LaunchScreen.storyboard */,
+				1067147E2057647500BFC6DE /* Info.plist */,
+				106714762057647500BFC6DE /* DebtTracker.xcdatamodeld */,
+			);
+			path = DebtTracker;
+			sourceTree = "<group>";
+		};
+		106714862057647500BFC6DE /* DebtTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				106714872057647500BFC6DE /* DebtTrackerTests.swift */,
+				106714892057647500BFC6DE /* Info.plist */,
+			);
+			path = DebtTrackerTests;
+			sourceTree = "<group>";
+		};
+		106714912057647500BFC6DE /* DebtTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				106714922057647500BFC6DE /* DebtTrackerUITests.swift */,
+				106714942057647600BFC6DE /* Info.plist */,
+			);
+			path = DebtTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1067146B2057647500BFC6DE /* DebtTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106714972057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTracker" */;
+			buildPhases = (
+				106714682057647500BFC6DE /* Sources */,
+				106714692057647500BFC6DE /* Frameworks */,
+				1067146A2057647500BFC6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebtTracker;
+			productName = DebtTracker;
+			productReference = 1067146C2057647500BFC6DE /* DebtTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		106714822057647500BFC6DE /* DebtTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1067149A2057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTrackerTests" */;
+			buildPhases = (
+				1067147F2057647500BFC6DE /* Sources */,
+				106714802057647500BFC6DE /* Frameworks */,
+				106714812057647500BFC6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106714852057647500BFC6DE /* PBXTargetDependency */,
+			);
+			name = DebtTrackerTests;
+			productName = DebtTrackerTests;
+			productReference = 106714832057647500BFC6DE /* DebtTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1067148D2057647500BFC6DE /* DebtTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1067149D2057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTrackerUITests" */;
+			buildPhases = (
+				1067148A2057647500BFC6DE /* Sources */,
+				1067148B2057647500BFC6DE /* Frameworks */,
+				1067148C2057647500BFC6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106714902057647500BFC6DE /* PBXTargetDependency */,
+			);
+			name = DebtTrackerUITests;
+			productName = DebtTrackerUITests;
+			productReference = 1067148E2057647500BFC6DE /* DebtTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106714642057647500BFC6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Philips;
+				TargetAttributes = {
+					1067146B2057647500BFC6DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					106714822057647500BFC6DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1067146B2057647500BFC6DE;
+					};
+					1067148D2057647500BFC6DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1067146B2057647500BFC6DE;
+					};
+				};
+			};
+			buildConfigurationList = 106714672057647500BFC6DE /* Build configuration list for PBXProject "DebtTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 106714632057647500BFC6DE;
+			productRefGroup = 1067146D2057647500BFC6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1067146B2057647500BFC6DE /* DebtTracker */,
+				106714822057647500BFC6DE /* DebtTrackerTests */,
+				1067148D2057647500BFC6DE /* DebtTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1067146A2057647500BFC6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1067147D2057647500BFC6DE /* LaunchScreen.storyboard in Resources */,
+				1067147A2057647500BFC6DE /* Assets.xcassets in Resources */,
+				106714752057647500BFC6DE /* Register.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106714812057647500BFC6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1067148C2057647500BFC6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106714682057647500BFC6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106714722057647500BFC6DE /* SignInViewController.swift in Sources */,
+				106714782057647500BFC6DE /* DebtTracker.xcdatamodeld in Sources */,
+				106714702057647500BFC6DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1067147F2057647500BFC6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106714882057647500BFC6DE /* DebtTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1067148A2057647500BFC6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106714932057647500BFC6DE /* DebtTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		106714852057647500BFC6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1067146B2057647500BFC6DE /* DebtTracker */;
+			targetProxy = 106714842057647500BFC6DE /* PBXContainerItemProxy */;
+		};
+		106714902057647500BFC6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1067146B2057647500BFC6DE /* DebtTracker */;
+			targetProxy = 1067148F2057647500BFC6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		106714732057647500BFC6DE /* Register.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				106714742057647500BFC6DE /* Base */,
+			);
+			name = Register.storyboard;
+			sourceTree = "<group>";
+		};
+		1067147B2057647500BFC6DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1067147C2057647500BFC6DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		106714952057647600BFC6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		106714962057647600BFC6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		106714982057647600BFC6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YY4NV42A9;
+				INFOPLIST_FILE = DebtTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.dev.vitaskinInHouse.DebtTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		106714992057647600BFC6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YY4NV42A9;
+				INFOPLIST_FILE = DebtTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.dev.vitaskinInHouse.DebtTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1067149B2057647600BFC6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YY4NV42A9;
+				INFOPLIST_FILE = DebtTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.dev.vitaskinInHouse.DebtTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebtTracker.app/DebtTracker";
+			};
+			name = Debug;
+		};
+		1067149C2057647600BFC6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YY4NV42A9;
+				INFOPLIST_FILE = DebtTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.dev.vitaskinInHouse.DebtTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebtTracker.app/DebtTracker";
+			};
+			name = Release;
+		};
+		1067149E2057647600BFC6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YY4NV42A9;
+				INFOPLIST_FILE = DebtTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.dev.vitaskinInHouse.DebtTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DebtTracker;
+			};
+			name = Debug;
+		};
+		1067149F2057647600BFC6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YY4NV42A9;
+				INFOPLIST_FILE = DebtTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.dev.vitaskinInHouse.DebtTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DebtTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106714672057647500BFC6DE /* Build configuration list for PBXProject "DebtTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106714952057647600BFC6DE /* Debug */,
+				106714962057647600BFC6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106714972057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106714982057647600BFC6DE /* Debug */,
+				106714992057647600BFC6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1067149A2057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1067149B2057647600BFC6DE /* Debug */,
+				1067149C2057647600BFC6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1067149D2057647600BFC6DE /* Build configuration list for PBXNativeTarget "DebtTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1067149E2057647600BFC6DE /* Debug */,
+				1067149F2057647600BFC6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		106714762057647500BFC6DE /* DebtTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				106714772057647500BFC6DE /* DebtTracker.xcdatamodel */,
+			);
+			currentVersion = 106714772057647500BFC6DE /* DebtTracker.xcdatamodel */;
+			path = DebtTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 106714642057647500BFC6DE /* Project object */;
+}
